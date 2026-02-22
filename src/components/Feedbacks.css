@@ -1,0 +1,58 @@
+.feedbacks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.feedback-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    transition: var(--transition);
+}
+
+.feedback-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-teal);
+}
+
+.stars {
+    margin-bottom: 1.5rem;
+}
+
+.star {
+    font-size: 1.2rem;
+    margin: 0 2px;
+}
+
+.feedback-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--text-white);
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+.student-name {
+    color: var(--accent-teal);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+    .feedbacks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .feedbacks-grid {
+        grid-template-columns: 1fr;
+    }
+}

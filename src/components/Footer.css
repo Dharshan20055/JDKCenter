@@ -1,0 +1,111 @@
+.footer {
+    background-color: var(--bg-deep);
+    padding: 80px 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+
+.footer-logo {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo span {
+    color: var(--accent-teal);
+}
+
+.footer-tagline {
+    color: var(--text-gray);
+    font-size: 1.1rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-nav a {
+    font-weight: 600;
+    color: var(--text-white);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.footer-nav a:hover {
+    color: var(--accent-teal);
+    transform: translateY(-2px);
+}
+
+.footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+
+.contact-item a {
+    color: var(--text-gray);
+    font-size: 1rem;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+.contact-item a:hover {
+    color: var(--accent-teal);
+}
+
+.contact-item a:hover .footer-icon {
+    filter: invert(78%) sepia(87%) saturate(2256%) hue-rotate(124deg) brightness(101%) contrast(106%);
+    opacity: 1;
+}
+
+.footer-bottom {
+    background: rgba(18, 24, 43, 0.8);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--text-gray);
+    font-size: 0.95rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-bottom p {
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .footer-nav {
+        gap: 1.2rem;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer-content {
+        padding-bottom: 3rem;
+    }
+}

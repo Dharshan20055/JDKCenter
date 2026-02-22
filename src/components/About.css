@@ -1,0 +1,102 @@
+.about-intro {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+}
+
+.founders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 992px) {
+    .founders-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .founders-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.founder-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 2.5rem 1.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.founder-card::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: conic-gradient(from 0deg,
+            transparent 0%,
+            transparent 70%,
+            var(--accent-teal) 90%,
+            transparent 100%);
+    animation: rotate-laser 4s linear infinite;
+    z-index: -2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.founder-card::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: var(--bg-deep);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.founder-card:hover::before {
+    opacity: 1;
+}
+
+.founder-card:hover {
+    transform: translateY(-5px);
+}
+
+@keyframes rotate-laser {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.founder-info h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.founder-role {
+    display: block;
+    color: var(--accent-teal);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.founder-info p {
+    color: var(--text-gray);
+    font-size: 1rem;
+}

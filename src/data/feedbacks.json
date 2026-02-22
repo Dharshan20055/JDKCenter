@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Muvendhan",
+        "feedback": "Excellent trainer with clear explanations.\nStrong technical knowledge in Java and SQL.\nVery helpful for my professional career growth.",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Gokul",
+        "feedback": "Practical hands-on training sessions.\nDoubts cleared with real-world examples.\nBest place to learn programming from scratch.",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Abinaya",
+        "feedback": "Personalized attention provided to everyone.\nReal-world project experience delivered.\nSolid foundation built for all beginners.",
+        "rating": 5
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        "title": "Java",
+        "category": "Programming Languages",
+        "duration": "3 Months",
+        "description": "Comprehensive Java training from basics to OOP concepts.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 2,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+        "title": "SQL",
+        "category": "Programming Languages",
+        "duration": "1.5 Months",
+        "description": "Master database management, queries, joins, and optimization techniques.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 3,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        "title": "HTML CSS JS",
+        "category": "Frontend",
+        "duration": "3 Months",
+        "description": "Build responsive and interactive websites using modern web technologies.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 4,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+        "title": "Java Full Stack Beginner Roadmap",
+        "category": "Fullstack",
+        "duration": "2–3 Weeks",
+        "description": "A quick-start guide to becoming a Full Stack developer with Java and React.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 5,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+        "title": "Git & Github",
+        "category": "Fullstack",
+        "duration": "2 Weeks",
+        "description": "Learn version control, branching, merging, and collaboration using Git and GitHub.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 6,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+        "title": "Python Programming",
+        "category": "Programming Languages",
+        "duration": "2 Months",
+        "description": "Build a strong foundation in logic with python programming.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 7,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "title": "C Programming",
+        "category": "Programming Languages",
+        "duration": "2 Months",
+        "description": "Build a strong foundation in logic and memory management with C programming.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 8,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-plain.svg",
+        "title": "Core Java",
+        "category": "Programming Languages",
+        "duration": "1.5 Months",
+        "description": "Deep dive into Java concepts like Multithreading , Collections and java 8 features.",
+        "enrollPath": "#enroll"
+    },
+    {
+        "id": 9,
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg",
+        "title": "JDBC",
+        "category": "Programming Languages",
+        "duration": "2-3 Weeks",
+        "description": "Connect Java applications with databases using Java Database Connectivity.",
+        "enrollPath": "#enroll"
+    }
+]

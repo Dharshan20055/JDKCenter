@@ -1,0 +1,52 @@
+.enroll-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    background: var(--accent-navy);
+}
+
+.enroll-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    margin-bottom: 3.5rem;
+}
+
+.enroll-actions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.action-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.enroll-action-btn {
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .enroll-content {
+        padding: 3rem 1.5rem;
+    }
+
+    .enroll-actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .enroll-action-btn {
+        width: 100%;
+    }
+}

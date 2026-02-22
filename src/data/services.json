@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "👤",
+        "title": "One-to-One Training",
+        "description": "Personalized attention to ensure every student masters the concepts at their own pace."
+    },
+    {
+        "id": 2,
+        "icon": "📅",
+        "title": "Weekend Batches Available",
+        "description": "Flexible timing for working professionals who want to upgrade their skills."
+    },
+    {
+        "id": 3,
+        "icon": "⚡",
+        "title": "Hands-on Sessions",
+        "description": "Dive into practical coding with live interactive sessions and real-time problem solving."
+    },
+    {
+        "id": 4,
+        "icon": "🌐",
+        "title": "Custom Website Development",
+        "description": "We design and build high-quality, professional websites tailored to meet our clients' specific business needs."
+    },
+    {
+        "id": 5,
+        "icon": "📝",
+        "title": "Resume Assistance with project",
+        "description": "Work on projects and get expert help in crafting a resume that stands out."
+    },
+    {
+        "id": 6,
+        "icon": "💼",
+        "title": "Portfolio Creation",
+        "description": "Build a stunning professional portfolio to showcase your work and attract potential employers."
+    }
+]

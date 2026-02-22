@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Dharshan M",
+        "role": "Founder",
+        "description": "Driven by a commitment to quality teaching, he empowers students with skills and confidence. His leadership fosters innovation and lifelong learning."
+    },
+    {
+        "id": 2,
+        "name": "AravinthKarthic K",
+        "role": "Co-Founder",
+        "description": "Supporting the mission of education with dedication and care, he enhances every learning experience. His guidance and collaboration ensure academic success and student development."
+    },
+    {
+        "id": 3,
+        "name": "Tharun B",
+        "role": "Co-Founder",
+        "description": "Committed to nurturing talent and academic excellence, he plays a vital role in student growth. His passion for teaching strengthens the institution’s vision and values."
+    }
+]
