@@ -1,9 +1,8 @@
 import React from 'react';
 import './Certification.css';
+import certificateImg from '../assets/images/certificate.jpg';
 
 const Certification = () => {
-
-    const certificateImg = "/src/assets/images/certificate.jpg";
 
     return (
         <section id="certification" className="certification">
