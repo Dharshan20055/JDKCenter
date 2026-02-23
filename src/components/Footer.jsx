@@ -30,7 +30,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="contact-item">
-                            <a href="https://wa.me/8072181033" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/+918072181033" target="_blank" rel="noopener noreferrer">
                                 <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@latest/icons/whatsapp.svg" alt="WhatsApp" className="footer-icon" />
                                 +91 8072181033
                             </a>

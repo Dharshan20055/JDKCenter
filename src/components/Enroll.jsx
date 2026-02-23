@@ -13,7 +13,7 @@ const Enroll = () => {
                         <a href="https://forms.gle/zaUBnDL7NwczbCUV8" target="_blank" rel="noopener noreferrer" className="btn-primary enroll-action-btn">
                             Enroll via Google Forms
                         </a>
-                        <a href="https://wa.me/8072181033" target="_blank" rel="noopener noreferrer" className="btn-outline-teal enroll-action-btn whatsapp">
+                        <a href="https://wa.me/+918072181033" target="_blank" rel="noopener noreferrer" className="btn-outline-teal enroll-action-btn whatsapp">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="action-icon" />
                             WhatsApp Enrollment
                         </a>
